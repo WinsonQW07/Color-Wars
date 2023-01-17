@@ -1,0 +1,29 @@
+{
+
+"enemies" : [
+    {
+        "color" : "blue",
+        "x" : 700,
+        "y" : 250,
+        "interval" : 7000
+
+    },
+    {
+        "color" : "green",
+        "x" : 400,
+        "y" : 50,
+        "interval" : 6000
+    },
+    {
+        "color" : "#ffb300",
+        "x" : 50,
+        "y" : 500,
+        "interval" : 5000
+    }
+
+
+]
+
+
+
+}

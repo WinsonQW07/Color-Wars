@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Wars Home Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <script src="src/my-header.js" type="module"></script>
+  <script src="src/my-footer.js" type="module"></script>
+  <script src="src/about.js" type="module"></script>
+  <link rel = "stylesheet" type = "text/css" href = "fonts/space/stylesheet.css">
+  <link rel = "stylesheet" type = "text/css" href = "fonts/retroica/stylesheet.css">
+</head>
+
+<body class="hero is-dark">
+
+  <my-header data-title = "Game"></my-header>
+  
+<div class="hero is-dark">
+ 
+  <section class="section">
+    <div class="container">
+      <div>
+
+          <h1 class="is-size-1 title">Color Wars Home Page</h1>
+
+          <p class="is-size-5">
+            Welcome to the Color Wars app.
+            To play the Color Wars game, click on the "App" page above or the button below. Color Wars is a simple casual game that contains conquest elements.
+            The player must progress through multiple levels in order to beat the game. Each level contains enemies that will attempt to stop the player from 
+            reaching the end. The levels contain blocks that represents territory in the game. Both the player and enemies have the ability to shoot projectiles that 
+            can change the color of the blocks upon collision. To progress to the next level, players must open a pathway to the enemy by changing the enemy's blocks into their own.
+            By hitting an enemy ship with a projectile, the level will be complete and the player can move on. Players have access to multiple abilities that can give them an 
+            edge when taking over blocks.
+          </p>
+        </div>
+
+        <div id = "playArea" class="mt-5">
+          <button class="button is-rounded is-medium is-warning mb-5" type="button" id="playButton">
+            Play
+          </button>
+
+          <p id="image"></p>
+        </div>
+
+    </div>
+  </section>
+</div>
+<my-footer></my-footer>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sources</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+ 
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <!-- <script src="src/main.js" type="module"></script> -->
+  <!-- <script src="src/loader.js" type="module"></script> -->
+  <script src="src/my-header.js" type="module"></script>
+  <script src="src/my-footer.js" type="module"></script>
+  <link rel = "stylesheet" type = "text/css" href = "fonts/space/stylesheet.css">
+  <link rel = "stylesheet" type = "text/css" href = "fonts/retroica/stylesheet.css">
+</head>
+<body class="hero is-dark">
+
+	<my-header data-title = "Favorite Pokemon List"></my-header>
+  
+  <div class="mx-5 my-5 px-2">
+
+        <h1 class="is-size-1 title">Documentation</h1>
+   
+        <div>
+          <h2 class="subtitle">Project Requirements</h2>
+          <ol class="ml-6 mb-5">
+            <li><a href="https://github.com/tonethar/IGME-330-Fall-2021/blob/main/projects/project-3.md">Project 3 Overview</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h2 class="subtitle">Resources Utilized</h2>
+          <ol class="ml-6 mb-5">
+            <li><a href="https://www.dafont.com/butler.font">Butler Font</a></li>
+            <li><a href="https://www.dafont.com/space-3.font">Space Font</a></li>
+            <li><a href="https://www.dafont.com/retroica.font">Retroica Font</a></li>
+            <li><a href="https://www.w3schools.com/html/default.asp">W3schools</a></li>
+            <li><a href="https://bulma.io/documentation/">Bulma</a></li>
+            <li><a href="http://getdrawings.com/blue-circle">Blue Projectile</a></li>
+            <li><a href="http://cliparts101.com/free_clipart/17693/simple_glossy_circle_button_red">Red Projectile</a></li>
+            <li><a href="http://www.clker.com/clipart-green-circle-4.html">Green Projectile</a></li>
+            <li><a href="https://www.clipartkey.com/view/ihbbbob_yellow-triangle-clip-art-cfxq-yellow-triangle-transparent/">Yellow Projectile</a></li>
+            <li><a href="https://fineartamerica.com/featured/space-image-small-magellanic-cloud-smc-galaxy-matthias-hauser.html">Galaxy background</a></li>
+            <li><a href="https://tse3.mm.bing.net/th?id=OIP.ZPZXKpWf9ojgcU3b6VJyMQHaEE&pid=Api&P=0&w=313&h=173">Enemy Ship</a></li>
+            <li><a href="http://www.clipartbest.com/clipart-aceo47nMi">Player Ship</a></li>
+            <li><a href="http://clipart-library.com/clipart/101597.htm">RIP image</a></li>
+            <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+            <li><a href="https://forum.freecodecamp.org/">Free Code Camp</a></li>
+            <li><a href="https://www.kenney.nl/assets?q=audio">Kenney Digital Audio</a></li>
+            <li><a href="https://freesound.org/">Free Sound</a></li>
+            <li><a href="https://www.fesliyanstudios.com/">Felysian Studios</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h2 class="subtitle">JS Libraries</h2>
+          <ol class="ml-6 mb-5">
+            <li><a href="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.9/howler.min.js">Howler</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h2 class="subtitle">Noteworthy</h2>
+          <ol class="ml-6 mb-5">
+            <li>Utilized the Bulma framework to make the app mobile friendly. The framework was used to give color and spacing
+              to many elements of each page. The select lists and buttons were customized with Bulma to give them more style.
+            </li>
+            <li>The JavaScript code is written in ES6 modules which imports and exports appriopriate data.</li>
+            <li>Each page has a header and a footer that were created using web components. Another component was the tips section within the "App" page.
+            </li>
+            <li>
+              Data about the enemies in the game were loaded in from a JSON file using fetch.
+            </li>
+            <li>The code originated from a homework assignment which was a clicker game. The image drawing and movement code were utilzed and enhanced to give it more functionality 
+              and feedback.
+            </li>
+            <li>The game has a high score system where it updates and saves the user's top 5 scores to the local storage. At the end of the game, 
+              the user's final score is compared with an array in the storage. If it is higher than any of the scores, it will replace the score within the leaderboard.
+            </li>
+            <li>The game uses canvas to draw and play.</li>
+            <li>The header will let the user know what page they are on.</li>
+            <li>The game contains background music and various sound effects to enhance the player experience and to provide feedback for certain actions.</li>
+            <li>The game contains special abilities activated by key presses. Using these abilities at the right time can allow the player to beat levels within a shorter amount of time.
+              If the player is not satisfied with their current progress, they have the ability to restart the level to get a better score.
+            </li>
+            <li>The levels were designed to help the player learn how to play the game. The first level is slow paced which helps the player to get used to the controls. 
+              Subsequent levels are sped up a little with more enemies to make it more challenging.
+            </li>
+          </ol>
+        </div>
+
+        <div>
+          <h2 class="subtitle">Grading</h2>
+          <ol class="ml-6 mb-5">
+            <li>The app contains at least four controls being mouse clicks and three different key presses.</li>
+            <li>Instructions are listed in various different sections in the app. A tips section is always displayed next to the game in case the user forgets how to use an ability while playing.
+            </li>
+            <li>The game saves the user's top five highest scores to the local storage.
+            </li>
+            <li>
+              Data about enemies are loaded in from a JSON file.
+            </li>
+            <li>
+              The navbar will highlight and bold the current page that the user is on.
+            </li>
+            <li>Contains at least three web components.</li>
+            <li>Uses ES6 modules and multiple embedded fonts.</li>
+            <li>Various text were written in each of the game states to let the users know what state they are in and what they may need to do.</li>
+            <li>The game contains multiple levels, each with progressing difficulty but is never impossible to beat.</li>
+            <li>The game contains a bit of randomness whenever the bullet is split up as the projectiles can travel in random directions.</li>
+            <li>Skill based gameplay can come from the skills. Depending on when the player uses the skills, it can give them extra momentum or save them from a pickle. The player has a cooldown before they 
+              can fire another projectile. This is especially important to know within late levels that contains multiple enemies who can fire at the player from multiple directions.
+            </li>
+          </ol>
+        </div>
+
+        <div>
+          <h2 class="subtitle">To Do</h2>
+          <ol class="ml-6 mb-5">
+            <li>I would have liked to use Firebase if I had more time to work on this project. I would have included a global/community ranking within the home page 
+              to show the highest scores achieved by various users.
+            </li>
+            <li>
+              I would have liked to improve the shooting mechanics. Right now, the projectiles are shot towards the mouse. It's accurate for the most part but there are inconsistencies depending on the 
+              distance.
+            </li>
+            <li>
+              I would add in more special effects such as explosions and visual effects. Each enemy would probably have more different behaviors and special skills of their own.
+            </li>
+            <li>More levels would be considered but having more than three enemies at once would be too crowded if drawn on the current canvas size.</li>
+            <li>The game might need some more visual flair. The levels are mainly just the ships and blocks. Some levels could have different objects that are indestructable or have different functions rather than just standard blocks.
+            </li>
+          </ol>
+        </div>
+
+  </div>
+
+  <my-footer></my-footer>
+
+</body>
+
+</html>
